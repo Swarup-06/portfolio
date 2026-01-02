@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YCSAS Internship Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2 class="logo">My Portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <h1>Hello, I'm Swarup Biswas</h1>
+        <p>Intern at YCSAS | Web Development Enthusiast</p>
+        <button onclick="scrollToSection('contact')">Contact Me</button>
+    </section>
+
+    <section id="about" class="section">
+        <h1><b>About Me</b></h1>
+        <p class="about-text">
+            I am a Computer Science student learning web development. My short-term goal 
+            is to get a job in a reputed company. I joined the YCSAS Internship to gain 
+            hands-on experience in modern frontend technologies and real-world projects.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h1><b>Skills</b></h1>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript (Basic)</div>
+            <div class="skill">React (Basic)</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="internship" class="section">
+        <h1><b>YCSAS Internship</b></h1>
+        <p><strong>Internship Name:</strong> YCSAS Web Development Internship.</p>
+        <p><strong>Topics Learned:</strong> HTML, CSS, JavaScript, Basic React, Version Control.</p>
+        <p><strong>Experience:</strong> Learning about Git and GitHub and Built a Web page or Mini projects.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h1><b>Projects / Tasks</b></h1>
+        <ol>
+            <li>Create A GitHub Account</li>
+            <li>Create Registration Form</li>
+            <li>Create To-Do List</li>
+            <li>DOM Manipulation Tasks</li>
+            <li>Portfolio Website</li>
+        </ol>
+    </section>
+
+    <section id="contact" class="section">
+        <h1><b>Contact Me</b></h1>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button class="submit">Send</button>
+            <p id="formMsg"></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
